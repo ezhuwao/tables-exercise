@@ -1,0 +1,13 @@
+table, th, tr, td {
+    border: 2px solid #333;
+}
+th, td{
+    padding: 10px 15px;
+}
+.tablehead{
+    text-align: left;
+}
+table{
+    width: 50%;
+    margin: auto;
+}

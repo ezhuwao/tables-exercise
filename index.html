@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Table Exercise</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th scope="col" class="tablehead" colspan="3">HEADING</th>
+            <th scope="col">A4</th>
+            <th scope="col">A5</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">BCD1</td>
+                <td>B2</td>
+                <td>B3</td>
+                <td>B4</td>
+                <td>B5</td>
+            </tr>
+            <tr>
+                <td>C2</td>
+                <td colspan="2">C3,4</td>
+                <td rowspan="3">CD5</td>
+            </tr>
+            <tr>
+                <td>D2</td>
+                <td>D3</td>
+                <td>D4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>E1</td>
+            <td colspan="4">E2~5</td>
+        </tfoot>
+    </table>
+</body>
+</html>
